@@ -6,7 +6,11 @@ The list of currencies used:
 AUD, CAD, CHF, DKK, EUR, GBP, HKD, IDR, INR, JPY, MXN, SEK, SGD, THB, USD, VND
 
 ## Installation
-This program uses the Exchange Rates API to get exchange rates. You can create a free account [here](https://exchangeratesapi.io/)
+This program uses the Exchange Rates API to get exchange rates. You can create a free account [here](https://exchangeratesapi.io/). You will obtain an API key, enter that key in the quotes below:
+
+```python
+apiKey = ""
+```
 
 Ensure you have [Python](https://www.python.org/downloads/) installed, at least version 3.9.
 
