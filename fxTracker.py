@@ -4,7 +4,8 @@ import pandas as pd
 
 currencies = ["AUD", "CAD", "CHF", "DKK", "EUR", "GBP", "HKD", "IDR", "INR", "JPY", "MXN", "SEK", "SGD", "THB", "USD", "VND"]
 
-apiKey = "94YUs5ifLh3ZwceyjaeQTjgQlIKR7gVH"
+#enter your API key here
+apiKey = ""
 
 url = "https://api.apilayer.com/exchangerates_data/latest?symbols={symbols}&base={base}"
 
