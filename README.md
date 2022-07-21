@@ -29,7 +29,16 @@ python fxTracker.py
 
 Follow the instructions and simply enter your option.
 
-Option 1 to List the available currencies  
-Option 2 to Get the exchange rate of the currencies  
-Option 3 to Write the exchange rates to a CSV file  
-Option 0 to Exit program
+**Option 1 to List currencies**  
+This option will list out the currencies available and used in the program  
+
+**Option 2 to Get all exchange rates**  
+This option will get the exchange rates of all combinations of the currencies and print them out to the console.
+
+**Option 3 to Save all exchange rates to a CSV file**  
+This option will get the exchange rates of all combinations of the currencies and save them to a csv file named "exchange_rates.csv". The file will be saved in a folder named with the date of the exchange rates. The folder will be created if it does not exist.
+
+**Option 4 to Get exchange rates for a specific currency**  
+This feature is not available yet and has been left for future development
+
+**Option 0 to Exit program**
